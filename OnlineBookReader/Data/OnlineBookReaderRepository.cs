@@ -94,9 +94,9 @@ namespace OnlineBookReader.Data
             return users;
         }
 
-        public Books GetUserByID(int userID)
+        public Users GetUserByID(int userID)
         {
-            var user = context.Books.Find(userID);
+            var user = context.Users.Find(userID);
             context.UserBooks.Where(e => e.UserID == userID).ToList();
 
             return user;

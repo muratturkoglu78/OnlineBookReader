@@ -12,7 +12,7 @@ namespace OnlineBookReader.Data
         void DeleteBookPage(int bookPageID);
         void UpdateBookPage(BookPages bookpage);
         IEnumerable<Users> GetUsers();
-        Books GetUserByID(int userID);
+        Users GetUserByID(int userID);
         void InsertUser(Users user);
         void DeleteUser(int userID);
         void UpdateUser(Users user);
