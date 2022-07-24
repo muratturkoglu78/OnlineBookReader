@@ -1,0 +1,133 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/murat.turkoglu/Projects/OnlineBookReader/OnlineBookReaderConsole/OnlineBookReaderConsole.csproj": {}
+  },
+  "projects": {
+    "/Users/murat.turkoglu/Projects/OnlineBookReader/OnlineBookReader/OnlineBookReader.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/murat.turkoglu/Projects/OnlineBookReader/OnlineBookReader/OnlineBookReader.csproj",
+        "projectName": "OnlineBookReader",
+        "projectPath": "/Users/murat.turkoglu/Projects/OnlineBookReader/OnlineBookReader/OnlineBookReader.csproj",
+        "packagesPath": "/Users/murat.turkoglu/.nuget/packages/",
+        "outputPath": "/Users/murat.turkoglu/Projects/OnlineBookReader/OnlineBookReader/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/murat.turkoglu/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.7, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.302/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/murat.turkoglu/Projects/OnlineBookReader/OnlineBookReaderConsole/OnlineBookReaderConsole.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/murat.turkoglu/Projects/OnlineBookReader/OnlineBookReaderConsole/OnlineBookReaderConsole.csproj",
+        "projectName": "OnlineBookReaderConsole",
+        "projectPath": "/Users/murat.turkoglu/Projects/OnlineBookReader/OnlineBookReaderConsole/OnlineBookReaderConsole.csproj",
+        "packagesPath": "/Users/murat.turkoglu/.nuget/packages/",
+        "outputPath": "/Users/murat.turkoglu/Projects/OnlineBookReader/OnlineBookReaderConsole/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/murat.turkoglu/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/murat.turkoglu/Projects/OnlineBookReader/OnlineBookReader/OnlineBookReader.csproj": {
+                "projectPath": "/Users/murat.turkoglu/Projects/OnlineBookReader/OnlineBookReader/OnlineBookReader.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.302/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

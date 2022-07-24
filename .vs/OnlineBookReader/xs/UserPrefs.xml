@@ -1,0 +1,32 @@
+﻿<Properties GitUserInfo="UsingMD" StartupConfiguration="{53E4B7B1-7753-40B4-82B3-8C67FCE4B22C}|Default">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <DisabledProjects>
+    <String>docker-compose.dcproj</String>
+  </DisabledProjects>
+  <MonoDevelop.Ide.Workbench>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="OnlineBookReader" expanded="True" selected="True">
+            <Node name="OnlineBookReader" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Data" expanded="True" />
+              <Node name="Properties" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/murat.turkoglu/Projects/OnlineBookReader/OnlineBookReaderConsole/Program.cs" relfile="OnlineBookReaderConsole/Program.cs" line="6" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.OnlineBookReader PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
