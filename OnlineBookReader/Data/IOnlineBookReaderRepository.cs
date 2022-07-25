@@ -5,6 +5,7 @@ namespace OnlineBookReader.Data
     {
         IEnumerable<Books> GetBooks();
         Books GetBookByID(int bookID);
+        Books GetBookByName(string bookName);
         void InsertBook(Books book);
         void DeleteBook(int bookID);
         void UpdateBook(Books book);

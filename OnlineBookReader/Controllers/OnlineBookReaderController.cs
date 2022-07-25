@@ -26,12 +26,20 @@ public class OnlineBookReaderController : ControllerBase
         return books;
 
     }
-    [HttpGet("GetBooks/{bookID}")]
-    public ActionResult<Books> GetBooksByID(int bookID)
+    [HttpGet("GetBooks/{bookName}")]
+    public ActionResult<Books> GetBookByName(string bookName)
     {
 
-        Books books = onlineBookRepository.GetBookByID(bookID);
-        return books;
+        Books book = onlineBookRepository.GetBookByName(bookName);
+        return book;
+
+    }
+    [HttpGet("GetBooks/{bookID}")]
+    public ActionResult<Books> GetBookByID(int bookID)
+    {
+
+        Books book = onlineBookRepository.GetBookByID(bookID);
+        return book;
 
     }
     [HttpPost("InsertBook/")]
@@ -151,11 +159,11 @@ public class OnlineBookReaderController : ControllerBase
 
     }
     [HttpGet("GetUsers/{userID}")]
-    public ActionResult<Users> GetUsersByID(int userID)
+    public ActionResult<Users> GetUserByID(int userID)
     {
 
-        Users users = onlineBookRepository.GetUserByID(userID);
-        return users;
+        Users user = onlineBookRepository.GetUserByID(userID);
+        return user;
 
     }
     [HttpPost("InsertUser/")]

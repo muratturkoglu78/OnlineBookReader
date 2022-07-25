@@ -30,6 +30,14 @@ namespace OnlineBookReader.Data
             return book;
         }
 
+        public Books GetBookByName(string bookName)
+        {
+            var book = context.Books.Where(e => e.Name == bookName).FirstOrDefault<Books>();
+            context.BookPages.Where(e => e.BookID == book.BookID).ToList();
+
+            return book;
+        }
+
         public void InsertBook(Books book)
         {
             context.Books.Add(book);

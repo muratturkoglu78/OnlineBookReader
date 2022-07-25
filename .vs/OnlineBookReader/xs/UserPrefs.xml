@@ -1,14 +1,22 @@
-﻿<Properties GitUserInfo="UsingMD" StartupConfiguration="{53E4B7B1-7753-40B4-82B3-8C67FCE4B22C}|Default">
+﻿<Properties StartupConfiguration="{53E4B7B1-7753-40B4-82B3-8C67FCE4B22C}|Default" GitUserInfo="UsingMD">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <DisabledProjects>
     <String>docker-compose.dcproj</String>
   </DisabledProjects>
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.OnlineBookReader PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="OnlineBookReader/Data/OnlineBookReaderRepository.cs">
+    <Files>
+      <File FileName="OnlineBookReader/Controllers/OnlineBookReaderController.cs" Line="263" Column="10" />
+      <File FileName="OnlineBookReader/Program.cs" Line="1" Column="1" />
+      <File FileName="OnlineBookReader/Data/OnlineBookReaderRepository.cs" Line="6" Column="47" />
+      <File FileName="OnlineBookReader/Data/IOnlineBookReaderRepository.cs" Line="1" Column="1" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="OnlineBookReader" expanded="True" selected="True">
+          <Node name="OnlineBookReader" expanded="True">
             <Node name="OnlineBookReader" expanded="True">
               <Node name="Controllers" expanded="True" />
               <Node name="Data" expanded="True" />
@@ -27,6 +35,4 @@
       <Breakpoint file="/Users/murat.turkoglu/Projects/OnlineBookReader/OnlineBookReaderConsole/Program.cs" relfile="OnlineBookReaderConsole/Program.cs" line="6" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.ItemProperties.OnlineBookReader PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>
