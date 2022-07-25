@@ -1,23 +1,31 @@
 ﻿<Properties StartupConfiguration="{53E4B7B1-7753-40B4-82B3-8C67FCE4B22C}|Default" GitUserInfo="UsingMD">
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.OnlineBookReader PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MultiItemStartupConfigurations />
   <DisabledProjects>
     <String>docker-compose.dcproj</String>
   </DisabledProjects>
-  <MonoDevelop.Ide.ItemProperties.OnlineBookReader PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="OnlineBookReader/Data/OnlineBookReaderRepository.cs">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/murat.turkoglu/Projects/OnlineBookReader/OnlineBookReaderConsole/Program.cs" relfile="OnlineBookReaderConsole/Program.cs" line="6" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="OnlineBookReader/Controllers/OnlineBookReaderController.cs">
     <Files>
-      <File FileName="OnlineBookReader/Controllers/OnlineBookReaderController.cs" Line="263" Column="10" />
-      <File FileName="OnlineBookReader/Program.cs" Line="1" Column="1" />
-      <File FileName="OnlineBookReader/Data/OnlineBookReaderRepository.cs" Line="6" Column="47" />
-      <File FileName="OnlineBookReader/Data/IOnlineBookReaderRepository.cs" Line="1" Column="1" />
+      <File FileName="OnlineBookReader/Controllers/OnlineBookReaderController.cs" Line="38" Column="55" />
+      <File FileName="OnlineBookReader/Program.cs" Line="18" Column="1" />
+      <File FileName="OnlineBookReader/Data/OnlineBookReaderRepository.cs" Line="39" Column="10" />
+      <File FileName="OnlineBookReader/OnlineBookReader.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="OnlineBookReader" expanded="True">
-            <Node name="OnlineBookReader" expanded="True">
+            <Node name="OnlineBookReader" expanded="True" selected="True">
+              <Node name="Dependencies" expanded="True">
+                <Node name="FrameworkReferences" expanded="True" />
+                <Node name="PackageDependencies" expanded="True" />
+              </Node>
               <Node name="Controllers" expanded="True" />
               <Node name="Data" expanded="True" />
               <Node name="Properties" expanded="True" />
@@ -30,9 +38,5 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="/Users/murat.turkoglu/Projects/OnlineBookReader/OnlineBookReaderConsole/Program.cs" relfile="OnlineBookReaderConsole/Program.cs" line="6" column="1" />
-    </BreakpointStore>
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>
