@@ -10,12 +10,13 @@
       <Breakpoint file="/Users/murat.turkoglu/Projects/OnlineBookReader/OnlineBookReaderConsole/Program.cs" relfile="OnlineBookReaderConsole/Program.cs" line="6" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workbench ActiveDocument="OnlineBookReader/Controllers/OnlineBookReaderController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="OnlineBookReader/appsettings.json">
     <Files>
-      <File FileName="OnlineBookReader/Controllers/OnlineBookReaderController.cs" Line="36" Column="6" />
-      <File FileName="OnlineBookReader/Program.cs" Line="27" Column="1" />
+      <File FileName="OnlineBookReader/Controllers/OnlineBookReaderController.cs" Line="72" Column="14" />
+      <File FileName="OnlineBookReader/Program.cs" Line="56" Column="1" />
       <File FileName="OnlineBookReader/Data/OnlineBookReaderRepository.cs" Line="39" Column="10" />
       <File FileName="OnlineBookReader/OnlineBookReader.cs" Line="1" Column="1" />
+      <File FileName="OnlineBookReader/appsettings.json" Line="11" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
