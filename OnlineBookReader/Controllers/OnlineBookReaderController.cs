@@ -26,7 +26,7 @@ public class OnlineBookReaderController : ControllerBase
         return books;
 
     }
-    [HttpGet("GetBooks/{bookName}")]
+    [HttpGet("GetBooksByName/{bookName}")]
     public ActionResult<Books> GetBookByName(string bookName)
     {
 
